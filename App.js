@@ -14,6 +14,7 @@ import {
   View,
   Text,
   StatusBar,
+  TouchableOpacity
 } from 'react-native';
 
 import {
@@ -41,9 +42,13 @@ class App extends React.Component {
   render() {
     return (
 
-      <Fragment>
-        <StatusBar barStyle="dark-content" />
+      // <Fragment>
+        // <StatusBar barStyle="dark-content" />
+        <View>
         <SafeAreaView>
+          {/* <Text>
+            test
+          </Text> */}
         <RNCamera
               ref={ref => {
                 this.camera = ref;
@@ -101,7 +106,8 @@ class App extends React.Component {
             </View>
           </ScrollView> */}
         </SafeAreaView>
-      </Fragment>
+        </View>
+      // {/* // </Fragment> */}
     );
   }
 }
