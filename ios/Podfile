@@ -45,7 +45,7 @@ target 'sample06-tvOS' do
     # Pods for testing
   end
 
-target 'yourTargetName' do
+target 'sample06' do
   # See http://facebook.github.io/react-native/docs/integration-with-existing-apps.html#configuring-cocoapods-dependencies
   pod 'React', :path => '../node_modules/react-native', :subspecs => [
     'Core',
