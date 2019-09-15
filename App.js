@@ -44,8 +44,8 @@ class App extends React.Component {
 
       // <Fragment>
         // <StatusBar barStyle="dark-content" />
-        <View>
-        <SafeAreaView>
+        <View style = {styles.container}>
+        {/* <SafeAreaView> */}
           {/* <Text>
             test
           </Text> */}
@@ -105,7 +105,7 @@ class App extends React.Component {
               <LearnMoreLinks />
             </View>
           </ScrollView> */}
-        </SafeAreaView>
+        {/* </SafeAreaView> */}
         </View>
       // {/* // </Fragment> */}
     );
